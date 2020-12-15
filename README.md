@@ -1,13 +1,16 @@
 # NowSecure GitLab CI
 
+
 This is the source repository to build the docker image available at https://hub.docker.com/repository/docker/nowsecure/gitlab-ci to be used within GitLab CI. 
 
-This image gives you the ability to perform automatic mobile app security testing for Android and iOS mobile apps through the NowSecure test engine.
+This NowSecure image gives you the ability to perform automatic mobile app security testing for Android and iOS mobile apps through the NowSecure Platform test engine.
 
 ## Summary
 
-Purpose-built for mobile app teams, NowSecure provides fully automated, mobile appsec testing coverage (static+dynamic+behavioral tests) optimized for the dev pipeline. Because NowSecure tests the mobile app binary post-build from Gitlab, it can test software developed in any language and provides complete results including newly developed code, 3rd party code, and compiler/operating system dependencies. With near zero false positives, NowSecure pinpoints real issues in minutes, with developer fix details, and routes tickets automatically into ticketing systems, such as Jira. NowSecure is frequently used to perform security testing in parallel with functional testing in the dev cycle. Requires a license for and connection to the NowSecure software.
- https://www.nowsecure.com
+Purpose-built for mobile app teams, NowSecure provides fully automated, mobile appsec testing coverage (static+dynamic+interactive+API  tests) optimized for the CI/CD dev pipeline. The NowSecure Extension for Azure DevOps integrates with Microsoft Azure DevOps directly for automated testing workflows and fast feedback loops.
+
+NowSecure tests mobile app binaries developed in any language or framework (so no language limitations and no source code required) and provides complete results including newly developed code, 3rd party code, and compiler/operating system dependencies. Connected to GitLab CI/CD pipelines, NowSecure automatically tests on real devices for the deepest insights and test coverage. NowSecure delivers high accuracy with near zero false positives, pinpointing issues with full detail context for each issue and developer-level remediation instructions with code examples to speed resolution quickly, routing tickets automatically into GitLab Boards and other ticketing systems.
+NowSecure is frequently used to perform security testing in parallel with functional testing in the dev cycle. Requires a license for and connection to the NowSecure Platform software. Learn more about NowSecure at https://www.nowsecure.com
 
 ## Getting Started
 
